@@ -1,0 +1,7 @@
+from fastapi import APIRouter
+
+router = APIRouter(prefix="/system", tags=["System"])
+
+@router.get("/health")
+def system_health():
+    return {"status": "ok", "msg": "system_router is active"}

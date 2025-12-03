@@ -1,0 +1,15 @@
+fly.toml
+.git/
+__pycache__/
+.envrc
+.venv/
+
+# Giữ lại file này, KHÔNG được ignore
+!server_state.py
+
+models/
+*.onnx
+*.zip
+*.pyd
+*.db
+models_extended.py
